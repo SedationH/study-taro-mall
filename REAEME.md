@@ -16,3 +16,6 @@ dva是对redux&redux-saga的封装，并使用model集中管理同步和异步ac
 
 在项目中的具体使用
 
+
+
+[微信分包机制](https://developers.weixin.qq.com/miniprogram/dev/framework/subpackages.html) 用来提交主页面加载速度的
