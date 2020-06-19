@@ -9,20 +9,20 @@ export default {
     }
   },
   reducers: {
-    add: (state, {payload}) => {
-      state.counter.num ++;
+    add: (state, { payload }) => {
+      state.counter.num++;
     },
 
-    dec: (state, {payload}) => {
-      state.counter.num --;
+    dec: (state, { payload }) => {
+      state.counter.num--;
     }
 
   },
   effects: {
-    *asyncAdd(_, {all, call, put}) {
+    *asyncAdd(_, { all, call, put }) {
       yield call(delay, 2000);//增加延迟测试效果
 
-      yield put({type: 'add'});
+      yield put({ type: 'add' });
     },
   }
 };
