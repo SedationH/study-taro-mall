@@ -1,4 +1,4 @@
-import { getIndex } from '../service/index'
+import { getIndex } from '../services/index'
 
 export default {
   namespace: 'home',
